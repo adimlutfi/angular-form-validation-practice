@@ -2,7 +2,7 @@
 
 validation sample angular 2 js sourced from angular.io :
 
-- Template Template-Driven Forms
+## Template Template-Driven Forms
 In the template-driven approach, you arrange [https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms_in_HTML](form elements in the component's template).
 
 You add Angular form directives (mostly directives beginning ng...) to help Angular construct a corresponding internal control model that implements form functionality. We say that the control model is implicit in the template.
