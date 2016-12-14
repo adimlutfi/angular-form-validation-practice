@@ -1,13 +1,13 @@
-# AngularFormValidationPractice
+# Angular Form Validation Practice
 
 validation sample angular 2 js sourced from angular.io :
 
 ## Template Template-Driven Forms
-In the template-driven approach, you arrange [https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms_in_HTML](form elements in the component's template).
+In the template-driven approach, you arrange [form elements in the component's template](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms_in_HTML).
 
 You add Angular form directives (mostly directives beginning ng...) to help Angular construct a corresponding internal control model that implements form functionality. We say that the control model is implicit in the template.
 
-To validate user input, you add [https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation](HTML validation) attributes to the elements. Angular interprets those as well, adding validator functions to the control model.
+To validate user input, you add [HTML validation](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation) attributes to the elements. Angular interprets those as well, adding validator functions to the control model.
 
 Angular exposes information about the state of the controls including whether the user has "touched" the control or made changes and if the control values are valid.
 
