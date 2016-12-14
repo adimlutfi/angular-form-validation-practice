@@ -11,7 +11,7 @@ To validate user input, you add [https://developer.mozilla.org/en-US/docs/Web/Gu
 
 Angular exposes information about the state of the controls including whether the user has "touched" the control or made changes and if the control values are valid.
 
-- Template & Messages
+## Template & Messages
 While the layout is straightforward, there are obvious shortcomings with the way we handle validation messages:
 
 It takes a lot of HTML to represent all possible error conditions. This gets out of hand when there are many controls and many validation rules.
@@ -22,7 +22,7 @@ The messages are static strings, hard-coded into the template. We often require 
 
 We can move the logic and the messages into the component with a few changes to the template and component.
 
-- Reactive
+## Reactive
 In the template-driven approach, you markup the template with form elements, validation attributes, and ng... directives from the Angular FormsModule. At runtime, Angular interprets the template and derives its form control model.
 
 Reactive Forms takes a different approach. You create the form control model in code. You write the template with form elements andform... directives from the Angular ReactiveFormsModule. At runtime, Angular binds the template elements to your control model based on your instructions.
